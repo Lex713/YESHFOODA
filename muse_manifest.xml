@@ -1,0 +1,332 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://lex713.github.io/YESHFOODA" resolutions="1x" timestamp="1596646531754">
+  <folder name="css">
+    <file name="site_global.css" crc="4117054403"/>
+    <file name="master_a-master.css" crc="233265789" ref="menu:index:about-us:faq:home:sorry"/>
+    <file name="nomq_preview_master_a-master.css" crc="15941895" ref="menu:index:about-us:faq:home:sorry"/>
+    <file name="menu.css" crc="4017350590" ref="menu"/>
+    <file name="nomq_menu.css" crc="4020741522" ref="menu"/>
+    <file name="index.css" crc="11191015" ref="index"/>
+    <file name="nomq_index.css" crc="3837192243" ref="index"/>
+    <file name="about-us.css" crc="342113853" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="3977736639" ref="about-us"/>
+    <file name="faq.css" crc="3984646835" ref="faq"/>
+    <file name="nomq_faq.css" crc="63014072" ref="faq"/>
+    <file name="home.css" crc="229931989" ref="home"/>
+    <file name="nomq_home.css" crc="3895754489" ref="home"/>
+    <file name="sorry.css" crc="4253770258" ref="sorry"/>
+    <file name="nomq_sorry.css" crc="524170284" ref="sorry"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="museutils.js" crc="3939489907" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="whatinput.js" crc="86476730" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="museconfig.js" crc="3936894949" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="home:about-us:sorry:index"/>
+    <file name="webpro.js" crc="3856315280" ref="home:faq:about-us:index"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="home:about-us:index"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="home:about-us:index"/>
+    <file name="touchswipe.js" crc="3888935200" ref="home:about-us:index"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="require.js" crc="4177726516" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="faq:index"/>
+    <file name="form_check.php" crc="4108222811" ref="index"/>
+    <file name="form_throttle.php" crc="503802655" ref="index"/>
+    <file name="form_process.php" crc="260214869" ref="index"/>
+    <file name="form-u49888.php" crc="429376239" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="banner1.png" crc="4068067561" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="banner2.jpg" crc="502102151" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="banner3.jpg" crc="107102724" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="banner_small1.png" crc="3788536132" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="menu-cards.svg" crc="3781051889" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="menu cards_poster_.png" crc="445206251" ref="home"/>
+    <file name="online-order.svg" crc="4066951391" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="online order_poster_.png" crc="4017048899" ref="home"/>
+    <file name="on-time-delivery.svg" crc="3889795420" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="on time delivery_poster_.png" crc="3907439747" ref="home"/>
+    <file name="veg-food.svg" crc="4002778595" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="veg food_poster_.png" crc="87197597" ref="home"/>
+    <file name="showmore.svg" crc="4277329007" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="showmore_poster_.png" crc="147930408" ref="home"/>
+    <file name="blank.gif" crc="4208392903" ref="home:faq:about-us:menu:sorry:index"/>
+    <file name="mastercard_white.svg" crc="4120669350" seo="true" ref="home:faq:about-us:menu:sorry:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+    </file>
+    <file name="mastercard_white_poster_.png" crc="4023996138" ref="home"/>
+    <file name="visa_white.svg" crc="104081832" seo="true" ref="home:faq:about-us:menu:sorry:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+    </file>
+    <file name="visa_white_poster_.png" crc="4079440365" ref="home"/>
+    <file name="paypal_white.svg" crc="455318040" seo="true" ref="home:faq:about-us:menu:sorry:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+    </file>
+    <file name="paypal_white_poster_.png" crc="3914574091" ref="home"/>
+    <file name="team.jpg" crc="4062012713" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="menorah.svg" crc="3865233270" ref="about-us"/>
+    <file name="menorah_poster_u6770.png" crc="4232458069" ref="about-us"/>
+    <file name="thumbs 3.svg" crc="386442593" ref="about-us"/>
+    <file name="thumbs 3_poster_u6778.png" crc="354006806" ref="about-us"/>
+    <file name="gift.svg" crc="413097637" ref="about-us"/>
+    <file name="gift_poster_u6786.png" crc="212184370" ref="about-us"/>
+    <file name="delivery time.svg" crc="233451507" ref="about-us"/>
+    <file name="delivery time_poster_u6798.png" crc="4087001918" ref="about-us"/>
+    <file name="carlos-lindner-sjbya8daw54-unsplash.jpg" crc="117160646" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="chuttersnap-aenh4hj_mrs-unsplash.jpg" crc="3976320129" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="dave-lastovskiy-rygidtavhkq-unsplash.jpg" crc="434581826" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="frank-zhang-uzj6oaypqrq-unsplash.jpg" crc="4221700396" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="leslie-del-moral-hbiopgo7oeu-unsplash.jpg" crc="527898824" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="louis-hansel-shotsoflouis-iggfgxulswg-unsplash.jpg" crc="4190396917" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="priscilla-du-preez-w3seyzodn8u-unsplash.jpg" crc="3770741026" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="robert-mathews-xxalfz6v9rq-unsplash.jpg" crc="298696926" ref="about-us:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="map.svg" crc="500248353" ref="sorry"/>
+    <file name="map_poster_u7289.png" crc="449163534" ref="sorry"/>
+    <file name="background1.png" crc="290107658" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background3.jpg" crc="80730003" ref="index"/>
+    <file name="logotype2.svg" crc="4207231632" seo="true" ref="index:home:faq:about-us:menu:sorry">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="sorry" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+    </file>
+    <file name="logotype2_poster_.png" crc="151213267" ref="home"/>
+    <file name="dish_icon.svg" crc="4088519876" ref="index"/>
+    <file name="dish_icon_poster_u24853.png" crc="3975515989" ref="index"/>
+    <file name="mario-saraiva-cif10nrbw7o-unsplash.jpg" crc="260192102" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow_left.svg" crc="4170585586" ref="index"/>
+    <file name="arrow_left_poster_u17250.png" crc="143912704" ref="index"/>
+    <file name="arrow_right.svg" crc="4124496805" ref="index"/>
+    <file name="arrow_right_poster_u17258.png" crc="4178167086" ref="index"/>
+    <file name="phone_white.svg" crc="42578356" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="phone_white_poster_.png" crc="3873775771" ref="index"/>
+    <file name="email_white_bold.svg" crc="22874555" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email_white_bold_poster_.png" crc="3822257762" ref="index"/>
+    <file name="map_pin.svg" crc="422221202" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="map_pin_poster_.png" crc="516426415" ref="index"/>
+    <file name="twitter_white.svg" crc="280209665" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter_white_poster_.png" crc="388608306" ref="index"/>
+    <file name="google-_white.svg" crc="431887539" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="google-_white_poster_.png" crc="267371105" ref="index"/>
+    <file name="facebook_white.svg" crc="20802543" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook_white_poster_.png" crc="3873233270" ref="index"/>
+    <file name="background6.jpg" crc="4034907181" ref="index"/>
+    <file name="background5.jpg" crc="398262713" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background4.jpg" crc="430472441" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background6-u52633-fr.jpg" crc="435058627" ref="index"/>
+    <file name="background6-u52633-fr2.jpg" crc="4138261318" ref="index"/>
+    <file name="background5-u26597-fr.jpg" crc="4253910826" ref="index"/>
+    <file name="background4-u12825-fr.jpg" crc="4040825794" ref="index"/>
+  </folder>
+  <file name="home.html" crc="164216750" seo="true" mt="1596645785150" redirect="true"/>
+  <file name="faq.html" crc="4214608577" seo="true" mt="1596645785150" redirect="true"/>
+  <file name="about-us.html" crc="3799190699" seo="true" mt="1596645785150" redirect="true"/>
+  <file name="menu.html" crc="3897066540" seo="true" mt="1596645785150" redirect="true"/>
+  <file name="sorry.html" crc="380367371" seo="true" mt="1596645785150" redirect="true"/>
+  <file name="index.html" crc="535387333" seo="true" mt="1596646385529" redirect="true"/>
+</manifest>
