@@ -108,19 +108,68 @@
         visibility:inherit;
     }
 	
-	    #buttonu9774:active #u9776-4{
-        -webkit-transition-duration:0.3s;
-        -webkit-transition-delay:0s;
-        -webkit-transition-timing-function:ease;
-        transition-duration:0.3s;
-        transition-delay:0s;
-        transition-timing-function:ease;
-        background-color:transparent;
-    }
-    #buttonu9774:active #u9776-4 p{
+	/*ACTIVE 1*/
+	    #buttonu9774:focus #u9776-4 p{
         color:#68BE60;
         visibility:inherit;
     }
+	
+	#buttonu9774:focus #u9775 {
+		background-color:#68Be60;
+	}
+	
+	/*ACTIVE 2*/
+		#buttonu10120:focus #u10122-4 p{
+        color:#68BE60;
+        visibility:inherit;
+    }
+	
+	#buttonu10120:focus #u10121 {
+		background-color:#68Be60;
+	}
+	
+	/*ACTIVE 3*/
+		#buttonu10139:focus #u10140-4 p{
+        color:#68BE60;
+        visibility:inherit;
+    }
+	
+	#buttonu10139:focus #u10141 {
+		background-color:#68Be60;
+	}
+	
+	/*ACTIVE 4*/
+		#buttonu10158:focus #u10159-4 p{
+        color:#68BE60;
+        visibility:inherit;
+    }
+	
+	#buttonu10158:focus #u10160 {
+		background-color:#68Be60;
+	}
+	
+	/*ACTIVE 5*/
+		#buttonu10177:focus #u10179-4 p{
+        color:#68BE60;
+        visibility:inherit;
+    }
+	
+	#buttonu10177:focus #u10178 {
+		background-color:#68Be60;
+	}
+	
+	/*ACTIVE 8*/
+		#buttonu10196:focus #u10197-4 p{
+        color:#68BE60;
+        visibility:inherit;
+    }
+	
+	/*END OF ACTIVE STATES*/
+	
+	#buttonu10196:active #u10198 {
+		background-color:#68Be60;
+	}
+	
     #buttonu10120{
         -webkit-transition-duration:1s;
         -webkit-transition-delay:0s;
