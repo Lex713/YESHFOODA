@@ -11,18 +11,18 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "musewpdisclosure.js", "jquery.scrolleffects.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "musewpdisclosure.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>YESHFOODA</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4117054403"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3871842512"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=297877441" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3967420297"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4038729070" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=392599416"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=395961160" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3934771215"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3989181785" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -46,75 +46,7 @@ top: -71px;
   <!--HTML Widget code-->
   
     <style>
-body #page .revealDown{
-    opacity:0;
-    visibility:hidden
-}
-body #page .revealDown.mt-scroll-slide-top,body #page .revealDown.mt-scroll-slide-right,body #page .revealDown.mt-scroll-slide-bottom,body #page .revealDown.mt-scroll-slide-left{
-    transition:opacity 200ms ease,visibility 200ms ease,-webkit-transform 200ms ease;
-    transition:transform 200ms ease,opacity 200ms ease,visibility 200ms ease;
-    transition:transform 200ms ease,opacity 200ms ease,visibility 200ms ease,-webkit-transform 200ms ease
-}
-body #page .revealDown.mt-scroll-slide-top.mt-scroll-show,body #page .revealDown.mt-scroll-slide-right.mt-scroll-show,body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-show,body #page .revealDown.mt-scroll-slide-left.mt-scroll-show{
-    opacity:1;
-    visibility:visible
-}
-body #page .revealDown.mt-scroll-slide-top.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-right.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-left.mt-scroll-hide{
-    opacity:0;
-    visibility:hidden
-}
-body #page .revealDown.mt-scroll-slide-top.mt-scroll-show{
-    -webkit-transform:translateY(0%);
-    -ms-transform:translateY(0%);
-    transform:translateY(0%)
-}
-body #page .revealDown.mt-scroll-slide-top.mt-scroll-hide{
-    -webkit-transform:translateY(-100%);
-    -ms-transform:translateY(-100%);
-    transform:translateY(-100%)
-}
-body #page .revealDown.mt-scroll-slide-right.mt-scroll-show{
-    -webkit-transform:translateX(0%);
-    -ms-transform:translateX(0%);
-    transform:translateX(0%)
-}
-body #page .revealDown.mt-scroll-slide-right.mt-scroll-hide{
-    -webkit-transform:translateX(100%);
-    -ms-transform:translateX(100%);
-    transform:translateX(100%)
-}
-body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-show{
-    -webkit-transform:translateY(0%);
-    -ms-transform:translateY(0%);
-    transform:translateY(0%)
-}
-body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-hide{
-    -webkit-transform:translateY(100%);
-    -ms-transform:translateY(100%);
-    transform:translateY(100%)
-}
-body #page .revealDown.mt-scroll-slide-left.mt-scroll-show{
-    -webkit-transform:translateX(0%);
-    -ms-transform:translateX(0%);
-    transform:translateX(0%)
-}
-body #page .revealDown.mt-scroll-slide-left.mt-scroll-hide{
-    -webkit-transform:translateX(-100%);
-    -ms-transform:translateX(-100%);
-    transform:translateX(-100%)
-}
-body #page .revealDown.mt-scroll-fade{
-    transition:opacity 200ms ease,visibility 200ms ease
-}
-body #page .revealDown.mt-scroll-fade.mt-scroll-show{
-    opacity:1;
-    visibility:visible
-}
-body #page .revealDown.mt-scroll-fade.mt-scroll-hide{
-    opacity:0;
-    visibility:hidden
-}
-
+      body #page .revealDown{opacity:0;visibility:hidden}body #page .revealDown.mt-scroll-slide-top,body #page .revealDown.mt-scroll-slide-right,body #page .revealDown.mt-scroll-slide-bottom,body #page .revealDown.mt-scroll-slide-left{transition:opacity 200ms ease,visibility 200ms ease,-webkit-transform 200ms ease;transition:transform 200ms ease,opacity 200ms ease,visibility 200ms ease;transition:transform 200ms ease,opacity 200ms ease,visibility 200ms ease,-webkit-transform 200ms ease}body #page .revealDown.mt-scroll-slide-top.mt-scroll-show,body #page .revealDown.mt-scroll-slide-right.mt-scroll-show,body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-show,body #page .revealDown.mt-scroll-slide-left.mt-scroll-show{opacity:1;visibility:visible}body #page .revealDown.mt-scroll-slide-top.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-right.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-hide,body #page .revealDown.mt-scroll-slide-left.mt-scroll-hide{opacity:0;visibility:hidden}body #page .revealDown.mt-scroll-slide-top.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .revealDown.mt-scroll-slide-top.mt-scroll-hide{-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%)}body #page .revealDown.mt-scroll-slide-right.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .revealDown.mt-scroll-slide-right.mt-scroll-hide{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%)}body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-show{-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%)}body #page .revealDown.mt-scroll-slide-bottom.mt-scroll-hide{-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%)}body #page .revealDown.mt-scroll-slide-left.mt-scroll-show{-webkit-transform:translateX(0%);-ms-transform:translateX(0%);transform:translateX(0%)}body #page .revealDown.mt-scroll-slide-left.mt-scroll-hide{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%)}body #page .revealDown.mt-scroll-fade{transition:opacity 200ms ease,visibility 200ms ease}body #page .revealDown.mt-scroll-fade.mt-scroll-show{opacity:1;visibility:visible}body #page .revealDown.mt-scroll-fade.mt-scroll-hide{opacity:0;visibility:hidden}
 
     </style>
     
@@ -2240,9 +2172,9 @@ $('button.back-to-top').click(function() {
          </div>
          <div class="grpelem shared_content" id="u18149" data-content-guid="u18149_content"><!-- simple frame --></div>
         </div>
-        <div class="clearfix colelem" id="pu12685"><!-- group -->
-         <div class="museBGSize grpelem shared_content" id="u12685" data-content-guid="u12685_content"><!-- simple frame --></div>
-         <div class="clearfix grpelem shared_content" id="u9744-8" data-content-guid="u9744-8_content"><!-- content -->
+        <div class="clearfix colelem shared_content" id="pu12685" data-content-guid="pu12685_content"><!-- group -->
+         <div class="museBGSize grpelem" id="u12685"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="u9744-8"><!-- content -->
           <p>YESHFOODA catering &amp; delivery is a small-team company that known as providing one of the best service in Downtown Tel Aviv.</p>
           <p id="u9744-4">Our experience, modern innovative equipment and a team of professionals will help to realize the boldest ideas and expectations from the on-site restaurant service.</p>
           <p id="u9744-6">From the kitchen to the boardroom, our staff strives to exceed expectations in service, quality, and reliability. Our corporate catering clients attest to our professional and seamless service while on-site, and our event clients know how helpful and accommodating we are, even in the most challenging situations.</p>
@@ -2665,7 +2597,7 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
      <div class="clearfix colelem" id="ppu57573"><!-- group -->
       <div class="clearfix grpelem shared_content" id="pu57573" data-content-guid="pu57573_content"><!-- column -->
        <div class="clip_frame colelem shared_content" id="u57573" data-content-guid="u57573_content"><!-- svg -->
-        <img class="svg temp_no_img_src" id="u57574" data-orig-src="images/logotype3.svg?crc=4046315306" width="273" height="73" alt="" data-mu-svgfallback="images/logotype3_poster_.png?crc=4272203419" src="images/blank.gif?crc=4208392903"/>
+        <img class="svg temp_no_img_src" id="u57574" data-orig-src="images/logotype3.svg?crc=4046315306" width="273" height="73" alt="" data-mu-svgfallback="images/logotype3_poster_.png?crc=318071541" src="images/blank.gif?crc=4208392903"/>
        </div>
        <div class="pinToLeft clearfix colelem shared_content" id="u57649-4" data-content-guid="u57649-4_content"><!-- content -->
         <p id="u57649-2"><span>Bring National Traditions to Your Place</span></p>
@@ -2675,10 +2607,10 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
          <div class="clip_frame colelem shared_content" id="u57452" data-content-guid="u57452_content"><!-- svg -->
           <img class="svg temp_no_img_src" id="u57453" data-orig-src="images/phone_white.svg?crc=42578356" width="17" height="17" alt="" data-mu-svgfallback="images/phone_white_poster_.png?crc=3873775771" src="images/blank.gif?crc=4208392903"/>
          </div>
-         <div class="clip_frame colelem" id="u57454"><!-- svg -->
+         <div class="clip_frame colelem shared_content" id="u57454" data-content-guid="u57454_content"><!-- svg -->
           <img class="svg temp_no_img_src" id="u57455" data-orig-src="images/email_white_bold.svg?crc=22874555" width="20" height="16" alt="" data-mu-svgfallback="images/email_white_bold_poster_.png?crc=3822257762" src="images/blank.gif?crc=4208392903"/>
          </div>
-         <div class="clip_frame colelem" id="u57483"><!-- svg -->
+         <div class="clip_frame colelem shared_content" id="u57483" data-content-guid="u57483_content"><!-- svg -->
           <img class="svg temp_no_img_src" id="u57484" data-orig-src="images/map_pin.svg?crc=422221202" width="20" height="56" alt="" data-mu-svgfallback="images/map_pin_poster_.png?crc=516426415" src="images/blank.gif?crc=4208392903"/>
          </div>
         </div>
@@ -2721,7 +2653,7 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
        </div>
        <button class="submit-btn NoWrap transition clearfix grpelem" id="u49899-4" type="submit" value="Send" tabindex="5"><!-- content -->
         <div style="margin-top:-14px;height:14px;" class="shared_content" data-content-guid="u49899-4_0_content">
-         <p class="shared_content" data-content-guid="u49899-4_0_0_content">Send</p>
+         <p>Send</p>
         </div>
        </button>
        <div class="fld-grp clearfix grpelem" id="widgetu49889" data-required="false"><!-- none box -->
@@ -2758,7 +2690,7 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
      <a class="nonblock nontext Button transition clearfix" id="buttonu10177" href="#FAQ"><!-- container box --><div class="transition clearfix colelem" id="u10179-4"><!-- content --><p>FAQ</p></div><div class="colelem" id="u10178"><!-- simple frame --></div></a>
      <a class="nonblock nontext Button transition clearfix" id="buttonu10196" href="#ContactUs"><!-- container box --><div class="transition clearfix colelem" id="u10197-4"><!-- content --><p>Contact</p></div><div class="colelem" id="u10198"><!-- simple frame --></div></a>
      <div class="revealDown clip_frame shared_content" id="u64181" data-content-guid="u64181_content"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u64182" data-orig-src="images/logotype3.svg?crc=4046315306" width="166" height="44" alt="" data-mu-svgfallback="images/logotype3_poster_.png?crc=4272203419" src="images/blank.gif?crc=4208392903"/>
+      <img class="svg temp_no_img_src" id="u64182" data-orig-src="images/logotype3.svg?crc=4046315306" width="166" height="44" alt="" data-mu-svgfallback="images/logotype3_poster_.png?crc=318071541" src="images/blank.gif?crc=4208392903"/>
      </div>
     </div>
     <div class="verticalspacer" data-offset-top="6370" data-content-above-spacer="6370" data-content-below-spacer="0"></div>
@@ -2977,44 +2909,44 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
 
 
 <li>
-	<a href="index.html">
+	<a href="#">
 		<p class="icon1"></p>
 		<p class="nav-text">Home</p>
 	</a>
 </li>
 
 <li>
-	<a href="menu.html">
+	<a href="#AboutUs">
 		<p class="icon2"></p>
-		<p class="nav-text">Menu</p>
-	</a>
-</li>
-
-<li>
-	<a href="about-us.html">
-		<p class="icon3"></p>
 		<p class="nav-text">About Us</p>
 	</a>
 </li>
 
 <li>
-	<a href="faq.html">
+	<a href="#Menu">
+		<p class="icon3"></p>
+		<p class="nav-text">Menu</p>
+	</a>
+</li>
+
+<li>
+	<a href="#Gallery">
 		<p class="icon4"></p>
+		<p class="nav-text">Gallery</p>
+	</a>
+</li>
+
+<li>
+	<a href="#FAQ">
+		<p class="icon5"></p>
 		<p class="nav-text">FAQ</p>
 	</a>
 </li>
 
 <li>
-	<a href="URL or #Anchor">
-		<p class="icon5"></p>
-		<p class="nav-text">CONTACT</p>
-	</a>
-</li>
-
-<li>
-	<a href="URL or #Anchor">
+	<a href="#ContactUs">
 		<p class="icon6"></p>
-		<p class="nav-text">TEAM</p>
+		<p class="nav-text">Contact</p>
 	</a>
 </li>
 
@@ -3041,7 +2973,7 @@ window.ec.config.storefrontUrls.queryBasedCleanUrls = true;
 
     nav.left ul > li {
       width: 100%;
-      height: calc(2px + 100% / 4); 
+      height: calc(2px + 100% / 6); 
       
       }
 
@@ -3355,7 +3287,7 @@ nav.open {
      </div>
      <span class="revealDown clip_frame placeholder" data-placeholder-for="u64181_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="6370" data-content-above-spacer="6370" data-content-below-spacer="759"></div>
+    <div class="verticalspacer" data-offset-top="6370" data-content-above-spacer="6370" data-content-below-spacer="255"></div>
     <span class="browser_width grpelem placeholder" data-placeholder-for="u45064-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -3366,264 +3298,300 @@ nav.open {
      <span class="size_fixed colelem placeholder" data-placeholder-for="u9485_content"><!-- placeholder node --></span>
      <span class="size_fixed colelem placeholder" data-placeholder-for="u21704_content"><!-- placeholder node --></span>
     </div>
-    <span class="size_fixed placeholder" data-placeholder-for="u6064_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem" id="ppu52633"><!-- column -->
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu52633"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u52633-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u26597-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u12825-bw_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu4672"><!-- group -->
+     <span class="browser_width placeholder" data-placeholder-for="u4672-bw_content"><!-- placeholder node --></span>
+     <span class="size_fixed placeholder" data-placeholder-for="u6064_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu8182"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu8182"><!-- group -->
       <div class="browser_width grpelem temp_no_id" data-orig-id="u8182-bw">
        <div class="museBGSize fullHeight temp_no_id" data-orig-id="u8182"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u8182_align_to_page">
-         <div class="clearfix grpelem temp_no_id" data-orig-id="u69749"><!-- group -->
-          <span class="pinToLeft clearfix grpelem placeholder" data-placeholder-for="u8945-6_content"><!-- placeholder node --></span>
-          <a class="nonblock nontext Button pinToLeft transition clearfix grpelem temp_no_id" href="#AboutUs" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="buttonu8828"><!-- container box --><span class="clearfix grpelem placeholder" data-placeholder-for="u8829-4_content"><!-- placeholder node --></span></a>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="u69749"><!-- column -->
+          <span class="pinToLeft clearfix colelem placeholder" data-placeholder-for="u8945-6_content"><!-- placeholder node --></span>
+          <a class="nonblock nontext Button pinToLeft transition clearfix colelem temp_no_id" href="#AboutUs" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="buttonu8828"><!-- container box --><span class="clearfix grpelem placeholder" data-placeholder-for="u8829-4_content"><!-- placeholder node --></span></a>
          </div>
          <span class="museBGSize grpelem placeholder" data-placeholder-for="u71124_content"><!-- placeholder node --></span>
-         <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="accordionu43497"><!-- vertical box -->
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43518"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43521-4"><!-- content --><span class="placeholder" data-placeholder-for="u43521-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem temp_no_id" data-orig-id="u43519"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43520-4_content"><!-- placeholder node --></span></div></li>
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43502"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43505-4"><!-- content --><span class="placeholder" data-placeholder-for="u43505-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43503"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43504-4_content"><!-- placeholder node --></span></div></li>
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43514"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43517-4"><!-- content --><span class="placeholder" data-placeholder-for="u43517-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43515"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43516-4_content"><!-- placeholder node --></span></div></li>
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43510"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43511-4"><!-- content --><span class="placeholder" data-placeholder-for="u43511-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43512"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43513-4_content"><!-- placeholder node --></span></div></li>
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43498"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43501-4"><!-- content --><span class="placeholder" data-placeholder-for="u43501-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43499"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43500-4_content"><!-- placeholder node --></span></div></li>
-          <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43506"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43509-4"><!-- content --><span class="placeholder" data-placeholder-for="u43509-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43507"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43508-4_content"><!-- placeholder node --></span></div></li>
-         </ul>
-         <span class="pinToLeft clearfix grpelem placeholder" data-placeholder-for="u57649-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u9821-bw">
-       <div class="temp_no_id" data-orig-id="u9821"><!-- group -->
-        <div class="clearfix temp_no_id" data-orig-id="u9821_align_to_page">
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u9744-8_content"><!-- placeholder node --></span>
-         <span class="museBGSize grpelem placeholder" data-placeholder-for="u12685_content"><!-- placeholder node --></span>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></span>
+     </div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u9821-bw">
+      <div class="temp_no_id" data-orig-id="u9821"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u9821_align_to_page">
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu39543"><!-- group -->
+         <span class="MoveUp grpelem placeholder" data-placeholder-for="u39543_content"><!-- placeholder node --></span>
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor1_content"><!-- placeholder node --></span>
+         <span class="museBGSize grpelem placeholder" data-placeholder-for="u24849_content"><!-- placeholder node --></span>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu18150"><!-- group -->
+         <span class="grpelem placeholder" data-placeholder-for="u18150_content"><!-- placeholder node --></span>
          <span class="clearfix grpelem placeholder" data-placeholder-for="u18148-4_content"><!-- placeholder node --></span>
          <span class="grpelem placeholder" data-placeholder-for="u18149_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u18150_content"><!-- placeholder node --></span>
-         <span class="museBGSize grpelem placeholder" data-placeholder-for="u24849_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u18164-4_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u18165_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u18166_content"><!-- placeholder node --></span>
         </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu12685_content"><!-- placeholder node --></span>
        </div>
       </div>
-      <span class="MoveUp grpelem placeholder" data-placeholder-for="u39543_content"><!-- placeholder node --></span>
-      <div class="PamphletWidget clearfix allow_click_through grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="pamphletu16115"><!-- none box -->
-       <div class="position_content" id="pamphletu16115_position_content">
-        <div class="clearfix colelem" id="pu16118"><!-- group -->
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u16118popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u16118"><!-- stack box -->
-           <div class="Container clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u16126"><!-- group -->
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17064_content"><!-- placeholder node --></span>
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17065_content"><!-- placeholder node --></span>
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17066_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu12825"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u12825-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u12825"><!-- column -->
+        <div class="clearfix" id="u12825_align_to_page">
+         <div class="position_content" id="u12825_position_content">
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u25038_content"><!-- placeholder node --></span>
+          <div class="clearfix colelem temp_no_id" data-orig-id="pu18166"><!-- group -->
+           <span class="grpelem placeholder" data-placeholder-for="u18166_content"><!-- placeholder node --></span>
+           <span class="clearfix grpelem placeholder" data-placeholder-for="u18164-4_content"><!-- placeholder node --></span>
+           <span class="grpelem placeholder" data-placeholder-for="u18165_content"><!-- placeholder node --></span>
+          </div>
+          <div class="PamphletWidget clearfix allow_click_through colelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="pamphletu16115"><!-- none box -->
+           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u16135popup">
+            <div class="PamphletPrevButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="2" data-orig-id="u16135"><!-- simple frame --></div>
            </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="1" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u16119"><!-- group -->
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u16573_content"><!-- placeholder node --></span>
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17024_content"><!-- placeholder node --></span>
-            <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17054_content"><!-- placeholder node --></span>
+           <div class="clearfix grpelem" id="pu16118"><!-- column -->
+            <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="0" data-orig-id="u16118popup">
+             <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u16118"><!-- stack box -->
+              <div class="Container clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u16126"><!-- group -->
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17064_content"><!-- placeholder node --></span>
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17065_content"><!-- placeholder node --></span>
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17066_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="1" data-orig-id="u16119"><!-- group -->
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u16573_content"><!-- placeholder node --></span>
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17024_content"><!-- placeholder node --></span>
+               <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u17054_content"><!-- placeholder node --></span>
+              </div>
+             </div>
+            </div>
+            <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="1" data-orig-id="u16130"><!-- none box -->
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u16132popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u16132"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u16131popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u16131"><!-- simple frame --></div>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u16116popup">
+            <div class="PamphletNextButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="3" data-orig-id="u16116"><!-- simple frame --></div>
            </div>
           </div>
          </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u16135popup">
-          <div class="PamphletPrevButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="2" data-orig-id="u16135"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u16116popup">
-          <div class="PamphletNextButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="3" data-orig-id="u16116"><!-- simple frame --></div>
-         </div>
-        </div>
-        <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="1" data-orig-id="u16130"><!-- none box -->
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u16132popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u16132"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u16131popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u16131"><!-- simple frame --></div>
-         </div>
         </div>
        </div>
       </div>
-      <span class="museBGSize grpelem placeholder" data-placeholder-for="u25038_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u39655_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u19184-bw">
-       <div class="temp_no_id" data-orig-id="u19184"><!-- group -->
+       <div class="temp_no_id" data-orig-id="u19184"><!-- column -->
         <div class="clearfix temp_no_id" data-orig-id="u19184_align_to_page">
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u19190-4_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u19191_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u19192_content"><!-- placeholder node --></span>
-         <span class="museBGSize grpelem placeholder" data-placeholder-for="u25047_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u33119_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u28826_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u28827_content"><!-- placeholder node --></span>
-         <span class="museBGSize grpelem placeholder" data-placeholder-for="u28828_content"><!-- placeholder node --></span>
+         <div class="position_content" id="u19184_position_content">
+          <div class="clearfix colelem temp_no_id" data-orig-id="pu39665"><!-- group -->
+           <span class="MoveUp grpelem placeholder" data-placeholder-for="u39665_content"><!-- placeholder node --></span>
+           <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor3_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u25047_content"><!-- placeholder node --></span>
+          </div>
+          <div class="clearfix colelem temp_no_id" data-orig-id="pu19192"><!-- group -->
+           <span class="grpelem placeholder" data-placeholder-for="u19192_content"><!-- placeholder node --></span>
+           <span class="clearfix grpelem placeholder" data-placeholder-for="u19190-4_content"><!-- placeholder node --></span>
+           <span class="grpelem placeholder" data-placeholder-for="u19191_content"><!-- placeholder node --></span>
+          </div>
+          <span class="size_fluid_width colelem placeholder" data-placeholder-for="u25587_content"><!-- placeholder node --></span>
+         </div>
         </div>
        </div>
       </div>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u25587_content"><!-- placeholder node --></span>
-      <span class="MoveUp grpelem placeholder" data-placeholder-for="u39665_content"><!-- placeholder node --></span>
-      <div class="PamphletWidget clearfix allow_click_through grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="pamphletu27896"><!-- none box -->
-       <div class="position_content" id="pamphletu27896_position_content">
-        <div class="clearfix colelem" id="pu27901"><!-- group -->
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u27901popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u27901"><!-- stack box -->
-           <div class="Container clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u27906"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27907_content"><!-- placeholder node --></span>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor2_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu52633"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u52633-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u52633"><!-- column -->
+        <div class="clearfix" id="u52633_align_to_page">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu50047"><!-- group -->
+          <span class="MoveUp grpelem placeholder" data-placeholder-for="u50047_content"><!-- placeholder node --></span>
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor6_content"><!-- placeholder node --></span>
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u49913_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu50042"><!-- group -->
+          <span class="grpelem placeholder" data-placeholder-for="u50042_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u50031-4_content"><!-- placeholder node --></span>
+          <span class="grpelem placeholder" data-placeholder-for="u50037_content"><!-- placeholder node --></span>
+         </div>
+         <span class="clip_frame colelem placeholder" data-placeholder-for="u57573_content"><!-- placeholder node --></span>
+         <span class="pinToLeft clearfix colelem placeholder" data-placeholder-for="u57649-4_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="ppu57452"><!-- group -->
+          <div class="clearfix grpelem temp_no_id" data-orig-id="pu57452"><!-- column -->
+           <span class="clip_frame colelem placeholder" data-placeholder-for="u57452_content"><!-- placeholder node --></span>
+           <span class="clip_frame colelem placeholder" data-placeholder-for="u57454_content"><!-- placeholder node --></span>
+           <span class="clip_frame colelem placeholder" data-placeholder-for="u57483_content"><!-- placeholder node --></span>
+          </div>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u49909-8_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu57579"><!-- group -->
+          <span class="clip_frame grpelem placeholder" data-placeholder-for="u57579_content"><!-- placeholder node --></span>
+          <span class="clip_frame grpelem placeholder" data-placeholder-for="u57575_content"><!-- placeholder node --></span>
+          <span class="clip_frame grpelem placeholder" data-placeholder-for="u57577_content"><!-- placeholder node --></span>
+          <span class="clip_frame grpelem placeholder" data-placeholder-for="u57581_content"><!-- placeholder node --></span>
+         </div>
+         <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u49888.php" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="widgetu49888"><!-- none box -->
+          <div class="position_content" id="widgetu49888_position_content">
+           <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu49905"><!-- none box -->
+            <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-orig-id="u49908-4"><!-- content --><div id="u49908-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu49905_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49905_input" data-orig-id="widgetu49905_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49905_prompt_0_content"><!-- placeholder node --></span></label></div></span>
            </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="1" data-orig-id="u27908"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27909_content"><!-- placeholder node --></span>
+           <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu49894"><!-- none box -->
+            <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-orig-id="u49895-4"><!-- content --><div id="u49895-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu49894_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49894_input" data-orig-id="widgetu49894_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49894_prompt_0_content"><!-- placeholder node --></span></label></div></span>
            </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="2" data-orig-id="u27912"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27913_content"><!-- placeholder node --></span>
+           <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu49900"><!-- none box -->
+            <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-orig-id="u49903-4"><!-- content --><div id="u49903-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu49900_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49900_input" data-orig-id="widgetu49900_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49900_prompt_0_content"><!-- placeholder node --></span></label></div></span>
            </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="3" data-orig-id="u27910"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27911_content"><!-- placeholder node --></span>
+           <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu49889"><!-- none box -->
+            <span class="fld-textarea actAsDiv transition clearfix grpelem temp_no_id" data-orig-id="u49891-4"><!-- content --><div id="u49891-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu49889_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49889_input" data-orig-id="widgetu49889_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49889_prompt_0_content"><!-- placeholder node --></span></label></div></span>
            </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="4" data-orig-id="u27916"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27917_content"><!-- placeholder node --></span>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="5" data-orig-id="u27904"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27905_content"><!-- placeholder node --></span>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="6" data-orig-id="u27914"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27915_content"><!-- placeholder node --></span>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="7" data-orig-id="u27902"><!-- group -->
-            <span class="museBGSize grpelem placeholder" data-placeholder-for="u27903_content"><!-- placeholder node --></span>
+           <div class="clearfix colelem" id="pu49904-4"><!-- group -->
+            <div class="clearfix grpelem temp_no_id" data-orig-id="u49904-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49904-4_0_content"><!-- placeholder node --></span>
+            </div>
+            <div class="clearfix grpelem temp_no_id" data-orig-id="u49898-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49898-4_0_content"><!-- placeholder node --></span>
+            </div>
+            <div class="clearfix grpelem temp_no_id" data-orig-id="u49893-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49893-4_0_content"><!-- placeholder node --></span>
+            </div>
+            <button class="submit-btn NoWrap transition clearfix grpelem temp_no_id" type="submit" value="Send" tabindex="15" data-orig-id="u49899-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u49899-4_0_content"><!-- placeholder node --></span>
+            </button>
            </div>
           </div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u27927popup">
-          <div class="PamphletPrevButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="2" data-orig-id="u27927"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u27899popup">
-          <div class="PamphletNextButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="3" data-orig-id="u27899"><!-- simple frame --></div>
-         </div>
+         </form>
         </div>
-        <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="1" data-orig-id="u27918"><!-- none box -->
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u27925popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27925"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u27923popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27923"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u27926popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27926"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u27919popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27919"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="4" data-orig-id="u27921popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27921"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="5" data-orig-id="u27922popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27922"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="6" data-orig-id="u27920popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27920"><!-- simple frame --></div>
-         </div>
-         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="7" data-orig-id="u27924popup">
-          <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27924"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u26597-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u26597"><!-- column -->
+        <div class="clearfix" id="u26597_align_to_page">
+         <div class="position_content" id="u26597_position_content">
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u28828_content"><!-- placeholder node --></span>
+          <div class="clearfix colelem temp_no_id" data-orig-id="pu28827"><!-- group -->
+           <span class="grpelem placeholder" data-placeholder-for="u28827_content"><!-- placeholder node --></span>
+           <span class="clearfix grpelem placeholder" data-placeholder-for="u33119_content"><!-- placeholder node --></span>
+           <span class="grpelem placeholder" data-placeholder-for="u28826_content"><!-- placeholder node --></span>
+          </div>
+          <div class="PamphletWidget clearfix allow_click_through colelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="pamphletu27896"><!-- none box -->
+           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u27927popup">
+            <div class="PamphletPrevButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="2" data-orig-id="u27927"><!-- simple frame --></div>
+           </div>
+           <div class="clearfix grpelem" id="pu27901"><!-- column -->
+            <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="0" data-orig-id="u27901popup">
+             <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u27901"><!-- stack box -->
+              <div class="Container clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u27906"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27907_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="1" data-orig-id="u27908"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27909_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="2" data-orig-id="u27912"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27913_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="3" data-orig-id="u27910"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27911_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="4" data-orig-id="u27916"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27917_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="5" data-orig-id="u27904"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27905_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="6" data-orig-id="u27914"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27915_content"><!-- placeholder node --></span>
+              </div>
+              <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="7" data-orig-id="u27902"><!-- group -->
+               <span class="museBGSize grpelem placeholder" data-placeholder-for="u27903_content"><!-- placeholder node --></span>
+              </div>
+             </div>
+            </div>
+            <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="1" data-orig-id="u27918"><!-- none box -->
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u27925popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27925"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="1" data-orig-id="u27923popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27923"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="2" data-orig-id="u27926popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="2" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27926"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u27919popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="3" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27919"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="4" data-orig-id="u27921popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="4" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27921"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="5" data-orig-id="u27922popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="5" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27922"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="6" data-orig-id="u27920popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="6" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27920"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="7" data-orig-id="u27924popup">
+              <div class="Thumb popup_element rounded-corners temp_no_id" data-col-pos="7" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u27924"><!-- simple frame --></div>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="3" data-orig-id="u27899popup">
+            <div class="PamphletNextButton PamphletLightboxPart popup_element museBGSize temp_no_id" data-col-pos="3" data-orig-id="u27899"><!-- simple frame --></div>
+           </div>
+          </div>
          </div>
         </div>
        </div>
       </div>
       <span class="MoveUp grpelem placeholder" data-placeholder-for="u39675_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u26880-bw">
-       <div class="temp_no_id" data-orig-id="u26880"><!-- group -->
+       <div class="temp_no_id" data-orig-id="u26880"><!-- column -->
         <div class="clearfix temp_no_id" data-orig-id="u26880_align_to_page">
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u27287-4_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u27288_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u27289_content"><!-- placeholder node --></span>
-         <span class="museBGSize grpelem placeholder" data-placeholder-for="u27290_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u50031-4_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u50037_content"><!-- placeholder node --></span>
-         <span class="grpelem placeholder" data-placeholder-for="u50042_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu44659"><!-- group -->
+          <span class="MoveUp grpelem placeholder" data-placeholder-for="u44659_content"><!-- placeholder node --></span>
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor5_content"><!-- placeholder node --></span>
+          <span class="museBGSize grpelem placeholder" data-placeholder-for="u27290_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu56622"><!-- group -->
+          <span class="grpelem placeholder" data-placeholder-for="u56622_content"><!-- placeholder node --></span>
+          <div class="clearfix grpelem temp_no_id" data-orig-id="ppu27289"><!-- column -->
+           <div class="clearfix colelem temp_no_id" data-orig-id="pu27289"><!-- group -->
+            <span class="grpelem placeholder" data-placeholder-for="u27289_content"><!-- placeholder node --></span>
+            <span class="clearfix grpelem placeholder" data-placeholder-for="u27287-4_content"><!-- placeholder node --></span>
+            <span class="grpelem placeholder" data-placeholder-for="u27288_content"><!-- placeholder node --></span>
+           </div>
+           <ul class="AccordionWidget clearfix colelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="ppu27289" data-orig-id="accordionu43497"><!-- vertical box -->
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43518"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43521-4"><!-- content --><span class="placeholder" data-placeholder-for="u43521-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem temp_no_id" data-orig-id="u43519"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43520-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43502"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43505-4"><!-- content --><span class="placeholder" data-placeholder-for="u43505-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43503"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43504-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43514"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43517-4"><!-- content --><span class="placeholder" data-placeholder-for="u43517-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43515"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43516-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43510"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43511-4"><!-- content --><span class="placeholder" data-placeholder-for="u43511-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43512"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43513-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43498"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43501-4"><!-- content --><span class="placeholder" data-placeholder-for="u43501-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43499"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43500-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u43506"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem temp_no_id" data-orig-id="u43509-4"><!-- content --><span class="placeholder" data-placeholder-for="u43509-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u43507"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u43508-4_content"><!-- placeholder node --></span></div></li>
+           </ul>
+          </div>
+         </div>
         </div>
        </div>
       </div>
-      <span class="MoveUp grpelem placeholder" data-placeholder-for="u44659_content"><!-- placeholder node --></span>
-      <span class="MoveUp grpelem placeholder" data-placeholder-for="u50047_content"><!-- placeholder node --></span>
-      <div class="pinToLeft clearfix grpelem" id="u58207-20"><!-- content -->
-       <p id="u58207-2"><span>Working Hours</span></p>
-       <p id="u58207-4">Monday ................. 8 am - 9 pm</p>
-       <p id="u58207-6">Tuesday .............. 8 am - 10 pm</p>
-       <p id="u58207-8">Wednesday ......... 8 am - 10 pm</p>
-       <p id="u58207-10">Thursday ............. 8 am - 10 pm</p>
-       <p id="u58207-12">Friday .................. 8 am - 10 pm</p>
-       <p id="u58207-14">Saturday .............. 8 am - 11 pm</p>
-       <p id="u58207-16">Sunday .................. 8 am - 9 pm</p>
-       <p id="u58207-17">&nbsp;</p>
-       <p id="u58207-18">&nbsp;</p>
-      </div>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></span>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor1_content"><!-- placeholder node --></span>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor2_content"><!-- placeholder node --></span>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor3_content"><!-- placeholder node --></span>
-     </div>
-     <span class="anchor_item colelem placeholder" data-placeholder-for="anchor4_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu56622"><!-- group -->
-      <span class="grpelem placeholder" data-placeholder-for="u56622_content"><!-- placeholder node --></span>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor5_content"><!-- placeholder node --></span>
-     </div>
-     <span class="museBGSize colelem placeholder" data-placeholder-for="u49913_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pu49909-8"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u49909-8_content"><!-- placeholder node --></span>
-      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor6_content"><!-- placeholder node --></span>
-      <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u49888.php" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="widgetu49888"><!-- none box -->
-       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="widgetu49905"><!-- none box -->
-        <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49908-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu49905_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49905_input" data-orig-id="widgetu49905_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49905_prompt_0_content"><!-- placeholder node --></span></label></span>
-       </div>
-       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="widgetu49894"><!-- none box -->
-        <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49895-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu49894_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49894_input" data-orig-id="widgetu49894_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49894_prompt_0_content"><!-- placeholder node --></span></label></span>
-       </div>
-       <div class="clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49904-4"><!-- content -->
-        <span class="placeholder" data-placeholder-for="u49904-4_0_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49898-4"><!-- content -->
-        <span class="placeholder" data-placeholder-for="u49898-4_0_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49893-4"><!-- content -->
-        <span class="placeholder" data-placeholder-for="u49893-4_0_content"><!-- placeholder node --></span>
-       </div>
-       <button class="submit-btn NoWrap transition clearfix grpelem temp_no_id" type="submit" value="Send" tabindex="15" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49899-4"><!-- content -->
-        <div style="margin-top:-9px;height:9px;">
-         <span class="placeholder" data-placeholder-for="u49899-4_0_0_content"><!-- placeholder node --></span>
-        </div>
-       </button>
-       <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="widgetu49889"><!-- none box -->
-        <span class="fld-textarea actAsDiv transition clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49891-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu49889_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49889_input" data-orig-id="widgetu49889_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49889_prompt_0_content"><!-- placeholder node --></span></label></span>
-       </div>
-       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="widgetu49900"><!-- none box -->
-        <span class="fld-input NoWrap actAsDiv transition clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u49903-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu49900_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu49900_input" data-orig-id="widgetu49900_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu49900_prompt_0_content"><!-- placeholder node --></span></label></span>
-       </div>
-      </form>
+      <span class="anchor_item grpelem placeholder" data-placeholder-for="anchor4_content"><!-- placeholder node --></span>
      </div>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu57452"><!-- group -->
-     <span class="clip_frame placeholder" data-placeholder-for="u57452_content"><!-- placeholder node --></span>
-     <span class="browser_width placeholder" data-placeholder-for="u4672-bw_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu6063"><!-- group -->
      <span class="size_fixed placeholder" data-placeholder-for="u6063_content"><!-- placeholder node --></span>
      <span class="revealDown clip_frame placeholder" data-placeholder-for="u64181_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="5016" data-content-above-spacer="5016" data-content-below-spacer="758" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu57573"><!-- column -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u57573_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu57579"><!-- group -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u57579_content"><!-- placeholder node --></span>
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u57575_content"><!-- placeholder node --></span>
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u57577_content"><!-- placeholder node --></span>
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u57581_content"><!-- placeholder node --></span>
-     </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u45064-bw">
-      <div class="temp_no_id" data-orig-id="u45064"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u45064_align_to_page">
-        <div class="clearfix colelem temp_no_id" data-orig-id="pu3901"><!-- group -->
-         <span class="clip_frame grpelem placeholder" data-placeholder-for="u3901_content"><!-- placeholder node --></span>
-         <span class="clip_frame grpelem placeholder" data-placeholder-for="u3905_content"><!-- placeholder node --></span>
-         <span class="clip_frame grpelem placeholder" data-placeholder-for="u3903_content"><!-- placeholder node --></span>
-        </div>
-        <span class="clearfix colelem placeholder" data-placeholder-for="u3900-4_content"><!-- placeholder node --></span>
-        <span class="clearfix colelem placeholder" data-placeholder-for="u4164-4_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="6099" data-content-above-spacer="6098" data-content-below-spacer="254" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem temp_no_id" data-orig-id="u45064-bw">
+     <div class="temp_no_id" data-orig-id="u45064"><!-- column -->
+      <div class="clearfix temp_no_id" data-orig-id="u45064_align_to_page">
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu3901"><!-- group -->
+        <span class="clip_frame grpelem placeholder" data-placeholder-for="u3901_content"><!-- placeholder node --></span>
+        <span class="clip_frame grpelem placeholder" data-placeholder-for="u3905_content"><!-- placeholder node --></span>
+        <span class="clip_frame grpelem placeholder" data-placeholder-for="u3903_content"><!-- placeholder node --></span>
        </div>
+       <span class="clearfix colelem placeholder" data-placeholder-for="u3900-4_content"><!-- placeholder node --></span>
+       <span class="clearfix colelem placeholder" data-placeholder-for="u4164-4_content"><!-- placeholder node --></span>
       </div>
      </div>
     </div>
@@ -3662,12 +3630,12 @@ Muse.Utils.initWidget('#widgetu49888', ['#bp_infinity', '#bp_935', '#bp_900'], f
 Muse.Utils.initWidget('#pamphletu16115', ['#bp_900'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:5000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:5000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu16115 */
 Muse.Utils.initWidget('#pamphletu27896', ['#bp_900'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:5000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:5000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu27896 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_935').one('muse_this_bp_activate', function(){
+$('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u52633-bw').registerPositionScrollEffect([{"in":[-Infinity,4993.05],"speed":[null,0.6]},{"in":[4993.05,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */
 $('#u26597-bw').registerPositionScrollEffect([{"in":[-Infinity,3360.8],"speed":[null,0.6]},{"in":[3360.8,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */
 $('#u12825-bw').registerPositionScrollEffect([{"in":[-Infinity,1323.7],"speed":[null,0.6]},{"in":[1323.7,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#bp_935').one('muse_this_bp_activate', function(){
 $('#u52633-bw').registerPositionScrollEffect([{"in":[-Infinity,4993.05],"speed":[null,0.6]},{"in":[4993.05,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */
 $('#u26597-bw').registerPositionScrollEffect([{"in":[-Infinity,3360.8],"speed":[null,0.6]},{"in":[3360.8,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */
 $('#u12825-bw').registerPositionScrollEffect([{"in":[-Infinity,1323.7],"speed":[null,0.6]},{"in":[1323.7,Infinity],"speed":[null,0.6]}], $(this)); /* scroll effect */

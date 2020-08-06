@@ -1,20 +1,20 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://lex713.github.io/YESHFOODA" resolutions="1x" timestamp="1596649453119">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://lex713.github.io/YESHFOODA" resolutions="1x" timestamp="1596709539409">
   <folder name="css">
     <file name="site_global.css" crc="4117054403"/>
-    <file name="master_a-master.css" crc="3871842512" ref="menu:index:about-us:faq:home:sorry"/>
-    <file name="nomq_preview_master_a-master.css" crc="392599416" ref="menu:index:about-us:faq:home:sorry"/>
-    <file name="menu.css" crc="481356249" ref="menu"/>
-    <file name="nomq_menu.css" crc="4020741522" ref="menu"/>
-    <file name="index.css" crc="297877441" ref="index"/>
-    <file name="nomq_index.css" crc="395961160" ref="index"/>
-    <file name="about-us.css" crc="3784452098" ref="about-us"/>
-    <file name="nomq_about-us.css" crc="3977736639" ref="about-us"/>
-    <file name="faq.css" crc="59503225" ref="faq"/>
-    <file name="nomq_faq.css" crc="63014072" ref="faq"/>
-    <file name="home.css" crc="340301454" ref="home"/>
-    <file name="nomq_home.css" crc="3895754489" ref="home"/>
-    <file name="sorry.css" crc="3924930388" ref="sorry"/>
-    <file name="nomq_sorry.css" crc="524170284" ref="sorry"/>
+    <file name="master_a-master.css" crc="3967420297" ref="menu:index:about-us:faq:home:sorry"/>
+    <file name="nomq_preview_master_a-master.css" crc="3934771215" ref="menu:index:about-us:faq:home:sorry"/>
+    <file name="menu.css" crc="103392976" ref="menu"/>
+    <file name="nomq_menu.css" crc="260643276" ref="menu"/>
+    <file name="index.css" crc="4038729070" ref="index"/>
+    <file name="nomq_index.css" crc="3989181785" ref="index"/>
+    <file name="about-us.css" crc="4202629204" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="4260735758" ref="about-us"/>
+    <file name="faq.css" crc="242637945" ref="faq"/>
+    <file name="nomq_faq.css" crc="62031678" ref="faq"/>
+    <file name="home.css" crc="83749147" ref="home"/>
+    <file name="nomq_home.css" crc="3796489290" ref="home"/>
+    <file name="sorry.css" crc="417780862" ref="sorry"/>
+    <file name="nomq_sorry.css" crc="346967124" ref="sorry"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:faq:about-us:menu:sorry:index"/>
@@ -92,65 +92,65 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
     </file>
-    <file name="mastercard_white_poster_.png" crc="4023996138" ref="home"/>
+    <file name="mastercard_white_poster_.png" crc="4023996138" ref="home:index"/>
     <file name="visa_white.svg" crc="104081832" seo="true" ref="home:faq:about-us:menu:sorry:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
     </file>
-    <file name="visa_white_poster_.png" crc="4079440365" ref="home"/>
+    <file name="visa_white_poster_.png" crc="4079440365" ref="home:index"/>
     <file name="paypal_white.svg" crc="455318040" seo="true" ref="home:faq:about-us:menu:sorry:index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
     </file>
-    <file name="paypal_white_poster_.png" crc="3914574091" ref="home"/>
+    <file name="paypal_white_poster_.png" crc="3914574091" ref="home:index"/>
     <file name="team.jpg" crc="4062012713" seo="true" ref="about-us">
       <caption webpage="about-us" alt=""/>
       <caption webpage="about-us" alt=""/>
@@ -263,9 +263,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="email_white_bold_poster_.png" crc="3822257762" ref="index"/>
     <file name="map_pin.svg" crc="422221202" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
@@ -296,39 +298,36 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="background6-u52633-fr.jpg" crc="435058627" ref="index"/>
-    <file name="background6-u52633-fr2.jpg" crc="4138261318" ref="index"/>
-    <file name="background5-u26597-fr.jpg" crc="4253910826" ref="index"/>
-    <file name="background4-u12825-fr.jpg" crc="4040825794" ref="index"/>
     <file name="logotype3.svg" crc="4046315306" seo="true" ref="home:faq:about-us:menu:sorry:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
       <caption webpage="sorry" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
       <caption webpage="menu" alt=""/>
     </file>
-    <file name="logotype3_poster_.png" crc="4272203419" ref="home"/>
+    <file name="logotype3_poster_.png" crc="318071541" ref="home:index"/>
     <file name="logotype3_poster_u71128.png" crc="4008256915" ref="index"/>
   </folder>
-  <file name="home.html" crc="3975906778" seo="true" mt="1596649155811" redirect="true"/>
-  <file name="faq.html" crc="4025183483" seo="true" mt="1596649089412" redirect="true"/>
-  <file name="about-us.html" crc="3955506141" seo="true" mt="1596649089412" redirect="true"/>
-  <file name="menu.html" crc="3885555039" seo="true" mt="1596649089412" redirect="true"/>
-  <file name="sorry.html" crc="303260380" seo="true" mt="1596649089412" redirect="true"/>
-  <file name="index.html" crc="3851429035" seo="true" mt="1596649418834" redirect="true"/>
+  <file name="home.html" crc="4283166950" seo="true" mt="1596709397934" redirect="true"/>
+  <file name="faq.html" crc="4289721780" seo="true" mt="1596709397934" redirect="true"/>
+  <file name="about-us.html" crc="4005117432" seo="true" mt="1596709397934" redirect="true"/>
+  <file name="menu.html" crc="473629801" seo="true" mt="1596709397934" redirect="true"/>
+  <file name="sorry.html" crc="41595750" seo="true" mt="1596709397934" redirect="true"/>
+  <file name="index.html" crc="345473136" seo="true" mt="1596709508424" redirect="true"/>
 </manifest>
